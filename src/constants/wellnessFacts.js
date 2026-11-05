@@ -1,0 +1,48 @@
+
+export const wellnessFacts = [
+  {
+    id: "healthy-weight",
+    category: "WEIGHT MANAGEMENT",
+    title: "Small changes can make a difference",
+    fact: "Healthy weight management is about sustainable habits, including food, activity, sleep and stress, not crash diets.",
+    source: "CDC",
+    url: "https://www.cdc.gov/healthy-weight-growth/losing-weight/index.html",
+    image: require("../../assets/images/pic1.jpg"),
+  },
+  {
+    id: "fasting",
+    category: "INTERMITTENT FASTING",
+    title: "Fasting is not for everyone",
+    fact: "Intermittent fasting changes when you eat. Research on long-term safety and benefits is still developing, so seek individual advice before trying it.",
+    source: "National Institute on Aging",
+    url: "https://www.nia.nih.gov/news/calorie-restriction-and-fasting-diets-what-do-we-know",
+    image: require("../../assets/images/picture2.png"),
+  },
+  {
+    id: "bmi",
+    category: "HEIGHT & WEIGHT",
+    title: "BMI tells only part of the story",
+    fact: "Body mass index uses height and weight as a screening tool. It does not directly measure body fat or define your health on its own.",
+    source: "NIDDK",
+    url: "https://www.niddk.nih.gov/health-information/weight-management/adult-overweight-obesity/am-i-healthy-weight",
+    image: require("../../assets/images/picture3.png"),
+  },
+  {
+    id: "mediterranean",
+    category: "DIET IDEAS",
+    title: "Think patterns, not food rules",
+    fact: "Mediterranean-style eating emphasises vegetables, fruit, beans, whole grains, nuts and healthy oils. It is one evidence-based approach, not a universal prescription.",
+    source: "American Heart Association",
+    url: "https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/nutrition-basics/mediterranean-diet",
+    image: require("../../assets/images/picture4.png"),
+  },
+  {
+    id: "balanced",
+    category: "HEALTHY HABITS",
+    title: "Balance works better than extremes",
+    fact: "A varied eating pattern and enjoyable physical activity can support health. You do not need to cut out an entire food group to make progress.",
+    source: "CDC",
+    url: "https://www.cdc.gov/healthy-weight-growth/about/tips-for-balancing-food-activity.html",
+    image: require("../../assets/images/picture5.png"),
+  },
+];

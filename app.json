@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "MyFitness-App",
+    "slug": "MyFitness-App",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "myfitnessapp",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "icon": "./assets/expo.icon"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/images/adaptive-icon.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.retha222.MyFitnessApp"
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#208AEF",
+          "image": "./assets/images/splash.png",
+          "imageWidth": 76
+        }
+      ],
+      "expo-status-bar",
+      "expo-font",
+      "expo-video",
+      "expo-audio"
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    }
+  }
+}
